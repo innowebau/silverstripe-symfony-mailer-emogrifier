@@ -13,9 +13,9 @@ use SilverStripe\Core\Path;
 class MailerSubscriberExtension extends Extension
 {
     use Configurable;
-    
+
     private static $css_file = null;
-    
+
     private $css = null;
 
     private function getCss(): ?string
@@ -44,12 +44,12 @@ class MailerSubscriberExtension extends Extension
         $this->css = file_get_contents($path);
 
     }
-    
+
     protected function updateOnMessage(Email $email, MessageEvent $event)
     {
         if ($body = $email->getHtmlBody()) {
             $html = CssInliner::fromHtml($body)->inlineCss($this->getCss() ?? '')->render();
-            $email->html($html));
+            $email->html($html);
         }
     }
 }
