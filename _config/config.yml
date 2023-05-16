@@ -1,0 +1,7 @@
+---
+Name: emogrifier
+After: 'mailer'
+---
+SilverStripe\Control\Email\MailerSubscriber:
+  extensions:
+    - Innoweb\SymfonyMailerEmogrifier\Extensions\MailerSubscriberExtension

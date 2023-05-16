@@ -1,0 +1,24 @@
+{
+	"name": "innoweb/silverstripe-symfony-mailer-emogrifier",
+	"description": "Easily integrate Emogrifier into SilverStripe and send Emails with inlined CSS automatically.",
+	"type": "silverstripe-vendormodule",
+	"license": "BSD-3-Clause",
+	"keywords": ["silverstripe", "symfony", "mailer", "emogrifier", "inline", "css", "styles"],
+	"homepage": "https://github.com/innowebau/silverstripe-symfony-mailer-emogrifier",
+	"support": {
+		"issues": "https://github.com/innowebau/silverstripe-symfony-mailer-emogrifier/issues"
+	},
+	"authors": [{
+		"name": "Florian Thoma",
+		"homepage": "https://innoweb.com.au"
+	}],
+	"require": {
+		"silverstripe/framework": "^5",
+		"pelago/emogrifier": "^7"
+	},
+	"autoload": {
+		"psr-4": {
+			"Innoweb\SymfonyMailerEmogrifier\\": "src/"
+		}
+	}
+}
