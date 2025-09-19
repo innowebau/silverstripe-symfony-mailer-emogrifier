@@ -7,14 +7,12 @@
 
 Easily integrate [Emogrifier](https://github.com/MyIntervals/emogrifier) into Silverstripe and send Emails with inlined CSS automatically.
 
-This is based on [bummzack/silverstripe-emogrify](https://github.com/bummzack/silverstripe-emogrify), integration Emogrifier with Symfony Mailer.
+This is based on [bummzack/silverstripe-emogrify](https://github.com/bummzack/silverstripe-emogrify), integrating Emogrifier with Symfony Mailer.
 
 ## Requirements
 
-* Silverstripe Framework ^5
-* [Emogrifier](https://github.com/MyIntervals/emogrifier) ^7
-  
-Note: this module is compatible with Silverstripe 5. For Silverstripe 4, please see the [bummzack/silverstripe-emogrify](https://github.com/bummzack/silverstripe-emogrify).
+* Silverstripe Framework ^6
+* [Emogrifier](https://github.com/MyIntervals/emogrifier) ^8
 
 ## Installation
 

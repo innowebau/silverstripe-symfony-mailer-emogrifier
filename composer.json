@@ -13,8 +13,8 @@
 		"homepage": "https://innoweb.com.au"
 	}],
 	"require": {
-		"silverstripe/framework": "^5",
-		"pelago/emogrifier": "^7"
+		"silverstripe/framework": "^6",
+		"pelago/emogrifier": "^8"
 	},
 	"autoload": {
 		"psr-4": {
